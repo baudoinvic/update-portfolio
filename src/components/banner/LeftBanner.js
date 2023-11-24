@@ -1,6 +1,9 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
+import Ressume from "./Ressume.pdf";
+
+
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -15,7 +18,8 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Baudoin Bolingo</span>
+          Hi, I'm{" "}
+          <span className="text-designColor capitalize">Baudoin Bolingo</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -31,8 +35,17 @@ const LeftBanner = () => {
           just to spruce things up, but doing it in ways that.
         </p>
       </div>
-     {/* Media */}
-     <Media />
+
+      <div className="download-cv">
+        <a href={Ressume} download>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Download CV
+          </button>
+        </a>
+      </div>
+
+      {/* Media */}
+      <Media />
     </div>
   );
 }
