@@ -38,7 +38,7 @@ const LeftBanner = () => {
 
       <div className="download-cv">
         <a href={Ressume} download>
-          <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-pink-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
             Download CV
           </button>
         </a>
