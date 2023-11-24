@@ -6,19 +6,19 @@ import { SiProgress, SiAntdesign } from "react-icons/si";
 export const featuresData = [
   {
     id: 1,
-    title: "Web development",
+    title: "Frontend development",
     des: "i use to design the beautiful web applications, implement and deploy them for my clients",
   },
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
+    title: "Web Development",
     des: "i'm using to develop all kinds of applications specially web applications and mobile applications for customer requirement",
   },
   {
     id: 3,
     icon: <SiProgress />,
-    title: "IT Support",
+    title: "Apps development",
     des: "troubleeshooting the personal computer problem and makes configuration of fibers on field and for customer needed",
   },
   {

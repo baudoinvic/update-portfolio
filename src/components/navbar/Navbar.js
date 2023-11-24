@@ -3,7 +3,8 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-// import {logo} from "../../assets/index"
+
+// import black from "../../assets/images/black.png"
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -11,7 +12,8 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-         <h2>Baudoin</h2>
+        <h2>Baudoin</h2>
+        {/* <img src={black} className="w-16" alt="Black Image" /> */}
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
