@@ -19,17 +19,17 @@ const ContactLeft = () => {
         </p>
         <div>
           <p className="text-base text-gray-400 flex items-center gap-2">
-            <FaPhone className='text-pink-500' /> Phone:{" "}
+            <FaPhone className="text-designColor" /> Phone:{" "}
             <span className="text-lightText">+250783012138</span>
           </p>
 
           <p className="text-base text-gray-400 flex items-center gap-2">
-            <FaMapMarkerAlt className='text-pink-500' /> Location:{" "}
+            <FaMapMarkerAlt className="text-designColor" /> Location:{" "}
             <span className="text-lightText">Rwanda, Kigali</span>
           </p>
 
           <p className="text-base text-gray-400 flex items-center gap-2">
-            <FaEnvelope className="text-pink-500" /> Email:{" "}
+            <FaEnvelope className="text-designColor" /> Email:{" "}
             <span className="text-lightText">baudoinvicbolingo@gmail.com</span>
           </p>
         </div>
