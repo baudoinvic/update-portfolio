@@ -31,9 +31,9 @@ const ProjectsCard = ({ title, des, src,button,source }) => {
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
-          {/* <button className="mt-10 bg-designColor text-white py-2 px-4 rounded">
-            {button}
-          </button> */}
+            {/* <button className="mt-10 bg-designColor text-white py-2 px-4 rounded">
+              {button}
+            </button> */}
      
            
            <span>
