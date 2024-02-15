@@ -30,9 +30,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        I am Bolingo Baudoin a skilled Software Engineer with 3 years of experience designing and 
+        developing innovative web applications using the latest technologies. With a strong passion for building responsive, 
+        user-friendly interfaces, I am dedicated to creating high-quality, performant applications that deliver an exceptional 
+        user experience. My expertise includes developing scalable front-end architectures, integrating RESTful APIs, and 
+        optimizing application performance.
         </p>
       </div>
 
